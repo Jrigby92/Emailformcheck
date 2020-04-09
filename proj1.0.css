@@ -1,0 +1,299 @@
+/* Text default */
+
+body {font-family:'Judson', serif; font-size:30px; color:white;}
+strong{font-size:20px; color:white;}
+
+
+
+/* TEXT CLASSES */
+.turnblack{color:rgb(73, 73, 73);}
+.eighteen{font-size:18px;}
+.gotham{font-family:gotham;}
+/* image overlay */
+.title{font-family:gotham; font-size:50px;}
+
+
+
+/* Background color */
+.allwhite{background-color: white;}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+.navbar{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar a{
+   display:block;
+   color: honeydew;
+   text-align: justify;
+   padding: 8px 13px;
+   text-decoration: none;
+   font-size: 22px;
+   float: left;
+}
+   .navbar a:hover{
+       background: #f1f1f1;
+       color: #000;
+   }
+   .navbar a.active{
+       background-color: #4CAFD450;
+       color: ivory;
+   }
+
+  
+
+
+
+  
+  
+
+
+/* Links */
+
+a {color:white; text-decoration: none; font-size:30px;}
+
+/* Div default */
+div{ margin-top: 0%;
+     padding: 0%;
+}
+
+
+
+/* Box style page default */
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100; /* Set the width of the positioned div */
+}
+
+
+.box2{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 30%;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100; /* Set the width of the positioned div */
+}
+
+.box3{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 30%;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100; /* Set the width of the positioned div */
+}
+
+.box4{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 30%;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100; /* Set the width of the positioned div */
+}
+
+.box .text3{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 45%;
+    right: 0;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    
+    width: 100; /* Set the width of the positioned div */
+}
+
+.box .text4{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0%;
+    right: 0;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    
+    width: 100; /* Set the width of the positioned div */
+}
+
+
+/* Divs */
+#div1{background-color:white; width:50%; float:left;vertical-align:top;}
+
+#wrapper{background-color: white; overflow: auto;}
+
+/* images */
+#ava{float:right; width: 40%; height: auto;}
+#nasa{width: 100%;height: auto;}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.boxz {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    /*
+    width: 400px;
+    */
+}
+
+/* Colours for each box */
+
+.boxc { background: #eccc68; }
+.boxd { background: #ff6348; }
+.boxe { background: #ff7f50; }
+.boxf { background: #ff4757; }
+.boxg { background: #f1c40f; }
+.boxh { background: #e67e22; }
+.boxi { background: #2ed573; }
+.boxj { background: #1e90ff; }
+.boxk { background: #c56cf0; }
+.boxl { background: #18dcff; }
+
+
+.container2 {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.boxz {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    /*
+    width: 400px;
+    */
+}
+
+/* Colours for each box */
+
+.boxc1 { background: #ffda44; }
+.boxd1 { background: #ff8b25; }
+.boxe1 { background: #ff7f50; }
+.boxf1 { background: #ff4757; }
+.boxg1 { background: #f10f0f; }
+.boxh1 { background: #a15e24; }
+.boxi1 { background: #824c1d; }
+.boxj1 { background: #40250f; }
+.boxk1 { background: #32b940; }
+.boxl1 { background: #8bd61c; }
+
+
+.container3 {
+    display:flex;
+    min-height: 50vh;
+    min-width: 120vh;
+    flex-direction: row;
+    font-size: 120px;
+}
+
+.boxz {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    /*
+    width: 400px;
+    */
+}
+
+/* Colours for each box */
+
+.boxc2 { background: #f8f8f8; }
+.boxd2 { background: #000000; }
+.boxe2 { background: #ffffff; }
+.boxf2 { background: #000000; }
+.boxg2 { background: #ffffff; }
+.boxh2 { background: #000000; }
+.boxi2 { background: #ffffff; }
+.boxj2 { background: #000000; }
+.boxk2 { background: #ffffff; }
+.boxl2 { background: #000000; }
+
+.form
+{margin-top: 20px;
+transition: all 4s ease-in-out;}
+
+.form-control
+{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+input
+{
+    height: 45px;
+}
+
+form .submit
+{
+    background: whitesmoke;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+form.submit:hover
+{
+background-color:#ffc655 ;
+cursor: pointer;
+}
