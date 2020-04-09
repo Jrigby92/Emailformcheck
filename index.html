@@ -84,18 +84,17 @@
   <h1 align="center">Say hello</h1>
 </div>
 
-<main>
-  <form class="contact-form" method="post" action="contactform.php">
-  <input name="Name" type="text"  placeholder="Your Name" required>
+<div align="center" class="contact-form" >
+  <form id="contact-form" method="post" action="contactform.php">
+  <input name="Name" type="text" class="form-control" placeholder="Your Name" required>
   <br>
-  <input name="email" type="text"  placeholder="Your Email" required> 
+  <input name="email" type="email" class="form-control" placeholder="Your Email" required> 
   <br>
-  <input type="text" name="subject" placeholder="message">
-  <textarea name="message"  placeholder="Message" ></textarea>
+  <textarea name="message" class="form-control"   rows="4" required></textarea>
   <br>
-  <button type="submit" name="submit"> SEND </button>
+  <input type="submit" class="form-control submit" value="Write message">
 </form>
-</main>
+</div>
 
 <br><br><br>
   
